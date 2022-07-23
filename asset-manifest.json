@@ -1,11 +1,11 @@
 {
-  "main.js": "controle_financeiro/static/js/main.dfa72a65.chunk.js",
-  "main.js.map": "controle_financeiro/static/js/main.dfa72a65.chunk.js.map",
-  "static/js/1.83b36a2f.chunk.js": "controle_financeiro/static/js/1.83b36a2f.chunk.js",
-  "static/js/1.83b36a2f.chunk.js.map": "controle_financeiro/static/js/1.83b36a2f.chunk.js.map",
-  "runtime~main.js": "controle_financeiro/static/js/runtime~main.246649ab.js",
-  "runtime~main.js.map": "controle_financeiro/static/js/runtime~main.246649ab.js.map",
-  "index.html": "controle_financeiro/index.html",
-  "precache-manifest.7792083c5f08083cec91d300d12d0909.js": "controle_financeiro/precache-manifest.7792083c5f08083cec91d300d12d0909.js",
-  "service-worker.js": "controle_financeiro/service-worker.js"
+  "main.js": "/controle_financeiro.io/static/js/main.dfa72a65.chunk.js",
+  "main.js.map": "/controle_financeiro.io/static/js/main.dfa72a65.chunk.js.map",
+  "static/js/1.93d01e74.chunk.js": "/controle_financeiro.io/static/js/1.93d01e74.chunk.js",
+  "static/js/1.93d01e74.chunk.js.map": "/controle_financeiro.io/static/js/1.93d01e74.chunk.js.map",
+  "runtime~main.js": "/controle_financeiro.io/static/js/runtime~main.61969f99.js",
+  "runtime~main.js.map": "/controle_financeiro.io/static/js/runtime~main.61969f99.js.map",
+  "index.html": "/controle_financeiro.io/index.html",
+  "precache-manifest.24febe0f85fe24df292784eb59276bd7.js": "/controle_financeiro.io/precache-manifest.24febe0f85fe24df292784eb59276bd7.js",
+  "service-worker.js": "/controle_financeiro.io/service-worker.js"
 }
