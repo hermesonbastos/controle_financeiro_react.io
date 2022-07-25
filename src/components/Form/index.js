@@ -64,7 +64,7 @@ const Form = ({ handleAdd, clearStorage, transactionsList, setTransactionsList }
           <C.Label htmlFor="rExpenses">Saída</C.Label>
         </C.RadioGroup>
         <C.Button onClick={handleSave}>adicionar</C.Button>
-        <C.Button color={"#e43e3e"} onClick={clearStorage}>limpar dados</C.Button>
+        <C.Button color={"black"} onClick={clearStorage}>limpar dados</C.Button>
       </C.Container>
       <Grid itens={transactionsList} setItens={setTransactionsList} />
     </>

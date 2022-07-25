@@ -1,14 +1,18 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  height: 150px;
+  display: flex;
+  padding: 100px;
+  align-items: center;
   text-align: center;
-  background: teal;
+  background: black;
 `;
 
-export const Header = styled.h1``;
+export const Header = styled.h1`
+
+`;
 
 export const Title = styled.div`
-  padding-top: 20px;
+  margin: auto auto;
   color: #fff
 `

@@ -22,7 +22,9 @@ export const InputContent = styled.div`
   flex-direction: column;
 `;
 
-export const Label = styled.label``;
+export const Label = styled.label`
+  margin-left: 5px;
+`;
 
 export const Input = styled.input`
   outline: none;
@@ -49,6 +51,7 @@ export const Button = styled.button`
   border-radius: 5px;
   cursor: pointer;
   color: white;
-  background-color: ${(props) => (props.color ? props.color : "teal")};
+  background-color: ${(props) => (props.color ? props.color : "#01da47")};
+  font-weight: bold;
   text-transform: uppercase;
 `;
