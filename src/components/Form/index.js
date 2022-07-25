@@ -1,7 +1,8 @@
 import React, { useState } from "react";
+import Grid from "../Grid";
 import * as C from "./styles";
 
-const Form = ({ handleAdd, clearStorage }) => {
+const Form = ({ handleAdd, clearStorage, transactionsList, setTransactionsList }) => {
   const [desc, setDesc] = useState("");
   const [amount, setAmount] = useState("");
   const [isExpense, setExpense] = useState(false);
@@ -63,8 +64,9 @@ const Form = ({ handleAdd, clearStorage }) => {
           <C.Label htmlFor="rExpenses">Saída</C.Label>
         </C.RadioGroup>
         <C.Button onClick={handleSave}>adicionar</C.Button>
-        <C.ClearButton className="clear" onClick={clearStorage}>limpar dados</C.ClearButton>
+        <C.Button color={"#e43e3e"} onClick={clearStorage}>limpar dados</C.Button>
       </C.Container>
+      <Grid itens={transactionsList} setItens={setTransactionsList} />
     </>
   );
 };

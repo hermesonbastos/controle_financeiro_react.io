@@ -41,6 +41,7 @@ const App = () => {
 
   const clearStorage = () => {
     setTransactionsList([]);
+    localStorage.clear();
   }
 
   return (

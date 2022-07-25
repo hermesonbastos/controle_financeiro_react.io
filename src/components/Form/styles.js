@@ -49,16 +49,6 @@ export const Button = styled.button`
   border-radius: 5px;
   cursor: pointer;
   color: white;
-  background-color: teal;
-  text-transform: uppercase;
-`;
-
-export const ClearButton = styled.button`
-  padding-inline: 10px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  color: white;
-  background-color: #e32636;
+  background-color: ${(props) => (props.color ? props.color : "teal")};
   text-transform: uppercase;
 `;
