@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/controle_financeiro.io/precache-manifest.5a853e26ed021e3988ebd801a28a4660.js"
+  "/controle_financeiro.io/precache-manifest.8d42b3ce9a7571fef2297c6d7d79cc9e.js"
 );
 
 workbox.clientsClaim();

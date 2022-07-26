@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "29270a324d63cd2c3374",
-    "url": "/controle_financeiro.io/static/js/main.29270a32.chunk.js"
+    "revision": "0d30338de6fefabd217e",
+    "url": "/controle_financeiro.io/static/js/main.0d30338d.chunk.js"
   },
   {
     "revision": "928fd7776d1c1818cd69",
@@ -12,7 +12,7 @@ self.__precacheManifest = [
     "url": "/controle_financeiro.io/static/js/runtime~main.61969f99.js"
   },
   {
-    "revision": "29c3be0f22b0cd98b9df171a1766a456",
+    "revision": "4d6e1e4826ab11798784420bbe775d62",
     "url": "/controle_financeiro.io/index.html"
   }
 ];
