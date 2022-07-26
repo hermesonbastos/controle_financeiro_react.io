@@ -24,6 +24,10 @@ export const Container = styled.div`
       display: none;
     }
   }
+
+  @media (max-width: 470px){
+    width: 20rem;
+  }
 `;
 
 export const Header = styled.header`
