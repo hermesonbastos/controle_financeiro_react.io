@@ -8,6 +8,7 @@ export const Container = styled.div`
   border-radius: 5px;
   padding: 5px 15px;
   width: 30%;
+  box-shadow: 0px 0px 5px #d4d4d4;
 
   @media (max-width: 750px) {
     width: 20%;
@@ -25,7 +26,7 @@ export const Container = styled.div`
     }
   }
 
-  @media (max-width: 470px){
+  @media (max-width: 750px){
     width: 20rem;
   }
 `;

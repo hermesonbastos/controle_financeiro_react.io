@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const Container = styled.div`
   max-width: 1120px;
   margin: 20px auto;
+  box-shadow: 0px 0px 5px #d4d4d4;
   width: 98%;
   background-color: #fff;
-  box-shadow: 0px 0px 5px #ccc;
   border-radius: 5px;
   display: flex;
   justify-content: space-around;
@@ -14,6 +14,8 @@ export const Container = styled.div`
 
   @media (max-width: 750px) {
     display: grid;
+    width: 22rem;
+    padding-block: 30px;
   }
 `;
 
@@ -23,7 +25,7 @@ export const InputContent = styled.div`
 `;
 
 export const Label = styled.label`
-  margin-left: 5px;
+  margin: 6px 5px;
 `;
 
 export const Input = styled.input`
@@ -43,6 +45,10 @@ export const RadioGroup = styled.div`
     accent-color: black;
     margin-top: 0;
   }
+  
+  @media (max-width: 750px) {
+    margin: 10px;
+  }
 `;
 
 export const Button = styled.button`
@@ -54,4 +60,11 @@ export const Button = styled.button`
   background-color: ${(props) => (props.color ? props.color : "#01da47")};
   font-weight: bold;
   text-transform: uppercase;
+
+  @media (max-width: 750px) {
+    justify-self: center;
+    padding: 10px 10px;
+    margin-top: 5px;
+    width: 10em;
+  }
 `;
