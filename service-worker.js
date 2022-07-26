@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/controle_financeiro.io/precache-manifest.8d42b3ce9a7571fef2297c6d7d79cc9e.js"
+  "/controle_financeiro_react.io/precache-manifest.a48a0c1fc680bdda43032d364bcd6849.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/controle_financeiro.io/index.html", {
+workbox.routing.registerNavigationRoute("/controle_financeiro_react.io/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
